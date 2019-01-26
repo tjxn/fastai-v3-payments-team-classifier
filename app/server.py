@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://s3-us-west-2.amazonaws.com/tjackson-fastai-models/stage-1.pth'
+export_file_url = 'https://s3-us-west-2.amazonaws.com/tjackson-fastai-models/export.pkl'
 export_file_name = 'export.pkl'
 
 classes = ['cherry', 'david', 'fred', 'peter', 'victor']
