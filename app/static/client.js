@@ -8,6 +8,7 @@ function showPicked(input) {
     reader.onload = function (e) {
         el('image-picked').src = e.target.result;
         el('image-picked').className = '';
+        el('result-label').innerHTML = '';
     }
     reader.readAsDataURL(input.files[0]);
 }
